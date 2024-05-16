@@ -1,1 +1,1 @@
-# Image_Upscale_Hardware_Accelerator
+# Image Upscale Hardware Accelerator

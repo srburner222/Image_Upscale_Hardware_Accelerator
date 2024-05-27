@@ -10,6 +10,7 @@ import numpy as np
 import cv2
 import subprocess
 import time
+import os
 
 
 # Function to turn an image (.jpg) to a 3D matrix (R,G,B)
@@ -275,6 +276,9 @@ sel_sim_type(sim_type)
 
 # Compute performance metrics and display
 race (image_path)
+
+# Creates Output_Images directory
+os.popen("mkdir Output_Images")
 
 # Convert output file to viewable image
 parse_image(image_name, image_path)

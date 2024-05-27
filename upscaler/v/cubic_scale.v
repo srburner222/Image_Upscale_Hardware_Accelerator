@@ -17,7 +17,7 @@ module cubic_scale #(parameter bit_depth = 8)
 
    /*****COMPUTE COEFFICIENTS*****/
 
-   // STAGE 0->1 (Reigster inputs)
+   // STAGE 0->1 (Register inputs)
    reg [bit_depth-1:0] a0_s1, a1_s1, a2_s1, a3_s1;
    
    always @(posedge clk) begin

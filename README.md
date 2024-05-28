@@ -8,16 +8,16 @@ While the ASIC was designed with 1080p →4k upscaling in mind, it is capable of
 A testing harness was developed in parallel with the ASIC that allows for (almost) complete automation. From the terminal the user is prompted to give an input image and the level of simulation (RTL, Syn, PnR) and the harness handles the rest. A few minutes later the upscaled image and performance metrics are output to the user.
 	
 In terms of next steps with the project, there are several ideas that would improve upon the current design:
-Modify parameterization to allow for other scaling factors (non MxN →2Mx2N)
-Modify interpolation algorithm to implement edge-aware scaling to further reduce stair step effect along sharp edges
-Modify architecture to allow for multiple frames (video) to be processed sequentially
+- Modify parameterization to allow for other scaling factors (non MxN →2Mx2N)
+- Modify interpolation algorithm to implement edge-aware scaling to further reduce stair step effect along sharp edges
+- Modify architecture to allow for multiple frames (video) to be processed sequentially
 
 For additional information about chip architecture or design process:
-[Milestone 1 (proposal)](https://youtu.be/3PRTdwjhe_o)
-[Milestone 2](https://youtu.be/YJnEHGv7G6w)
-[Milestone 3](https://youtu.be/G7C5A7b6-pM)
-[Milestone 4](https://youtu.be/lWZpImCLfVo)
-[Final milestone](https://youtu.be/XeLZKv3kYsg)
+- [Milestone 1 (proposal)](https://youtu.be/3PRTdwjhe_o)  
+- [Milestone 2](https://youtu.be/YJnEHGv7G6w)  
+- [Milestone 3](https://youtu.be/G7C5A7b6-pM)  
+- [Milestone 4](https://youtu.be/lWZpImCLfVo)  
+- [Final milestone](https://youtu.be/XeLZKv3kYsg)  
 ### Example Images
 These images are the result of a place and route version of the chip.
 Note: Images are not 1080p →4k upscale and therefore not fully representative of the design capabilities.
